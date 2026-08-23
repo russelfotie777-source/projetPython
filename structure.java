@@ -1,16 +1,17 @@
-
+import java.util.Scanner;
 
 public class structure {
     public static void main(String[] args)
     {
-        int i = 0;
-        while (i < 5) {
-            System.out.println("I am the best of all time");
-            i++;
-        }
+         
+        Scanner scanner =  new Scanner(System.in);
+        int nombre;
 
-        for(int a = 0; a < 5; a++) {
-            System.out.println("I am the best of all time");
-        }
+        do {
+            System.out.println("Entrer un nombre Positif ");
+            nombre = scanner.nextInt();
+        } while (nombre <= 0);
+
+        scanner.close();
     }
 }
