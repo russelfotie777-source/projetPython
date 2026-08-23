@@ -1,5 +1,4 @@
-
-
+import java.util.ArrayList;
 public class tableau {
     public static void main(String[] args)
     {
@@ -8,5 +7,16 @@ public class tableau {
           {
             System.out.println(element);
           }
+
+          ArrayList<Integer> nombre = new ArrayList<>();
+          nombre.add(10);
+          nombre.add(15);
+          nombre.add(25);
+          nombre.add(30);
+          for(int element : nombre)
+          {
+            System.out.println(element);
+          }
+
     }
 }
