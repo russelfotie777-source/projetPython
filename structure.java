@@ -11,6 +11,14 @@ public class structure {
             System.out.println("Entrer un nombre Positif ");
             nombre = scanner.nextInt();
         } while (nombre <= 0);
+        for (int i = 0; i < nombre; i++) {
+            System.out.println("Entrer un nombre ");
+        }
+        while (int i = 0; i < nombre; i++) {
+            System.out.println("Entrer un nombre ");
+            i++;
+            
+        }
 
         scanner.close();
     }
