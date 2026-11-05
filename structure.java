@@ -19,6 +19,11 @@ public class structure {
             i++;
             
         }
+                while (int j = 0; j < nombre; j++) {
+            System.out.println("Entrer un nombre J ");
+            j++;
+            
+        }
 
         scanner.close();
     }
